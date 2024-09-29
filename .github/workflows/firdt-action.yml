@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: print greeting
         run: echo "Hello World"
+      - name: create file
+        run: touch ABC.txt
       - name: print goodbye
         run: echo "Done - bye"
 
