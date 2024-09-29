@@ -6,8 +6,12 @@ jobs:
     steps:
       - name: print greeting
         run: echo "Hello World"
+      - name: display files
+        run: ls -ltr
       - name: create file
         run: touch ABC.txt
+      - name: display files
+        run: ls -ltr
       - name: print goodbye
         run: echo "Done - bye"
 
